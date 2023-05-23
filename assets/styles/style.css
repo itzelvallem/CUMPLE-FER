@@ -1,0 +1,59 @@
+/* Estilo personalizado */
+body {
+    background: #F09819;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EDDE5D, #F09819);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EDDE5D, #F09819); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  }
+  
+  h1 {
+    color: #8e44ad;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .navbar {
+    background-color: #9b59b6;
+  }
+  
+  .navbar-brand {
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    color: #ffffff;
+  }
+  
+  .carousel-item.active {
+    filter: brightness(70%);
+  }
+  
+  h2 {
+    color: #8e44ad;
+    margin-top: 30px;
+  }
+  
+  .form-check-label {
+    color: #8e44ad;
+  }
+  
+  .card {
+    background-color: #f8f4fc;
+    border: 1px solid #8e44ad;
+  }
+  
+  .card-title {
+    color: #8e44ad;
+  }
+  
+  .card-text {
+    color: #555555;
+  }
+  
+  /* Estilo para las imágenes responsivas */
+  .carousel-item img {
+    max-width: 100%;
+    height: 300px; 
+    object-fit: cover; 
+  }
